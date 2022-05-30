@@ -1,6 +1,6 @@
 # Site settings
 title: "Simon L. Rydin Myerson"
-description: "A resume template for Jekyll and GitHub Pages sites."
+description: "Personal page of Simon L. Rydin Myerson"
 
 # Build settings
 markdown: kramdown
@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Simon L. Rydin Myerson"
-resume_title:                   "Warwick University"
+resume_title:                   "Leverhulme Early Career Fellow, Warwick Zeeman Lecturer, WZL Assistant Professor"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "simon.rydin-myerson@warwick.ac.uk"
@@ -23,7 +23,9 @@ resume_contact_address:         "742 Evergreen Terrace, Springfield"
 resume_header_contact_info:     "Mathematics Institute • Zeeman Building • University of Warwick • Coventry CV4 7AL • simon.rydin-myerson@warwick.ac.uk"
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+resume_header_intro: "<p>I am a mathematician, and I study the solutions to equations and inequalities in whole numbers. These are called Diophantine problems and they’re part of number theory. I use “analytic” arguments which are often fairly elementary, which makes it analytic number theory.</p>
+<p>I’ve become interested in something which seems very different: nonlinear dispersive partial differential equations (nonlinear dispersive PDEs). This is a type of mathematical model which describes physical systems from ocean waves to fibre optic cables.</p>
+<p>You can read more about my work on my <a href='https://warwick.ac.uk/research/supporting-talent/fellowships/sci-fellowships/ecr/simon-myerson'>Fellowship webpage</a>."
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
