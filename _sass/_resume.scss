@@ -45,14 +45,17 @@
     
     .icon-link {
       display: inline-block;
-      font-size: .5rem;
-      margin-bottom: 2px
     }
 
     .icon {
       height: 32px;
-      margin-bottom: -12px;
-      padding-right: 2px
+      margin-bottom: -10px;
+      padding-right: 4px
+    }
+    
+    .icon-caption {
+      font-size: .5rem;
+      margin-bottom: .25rem;
     }
   }
   .header-contact-info p a {
