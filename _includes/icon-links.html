@@ -2,16 +2,6 @@
 {% if site.resume_social_links %}
 <ul class="icon-links">
   
-  <!-- ORCID link -->
-  {% if site.resume_social_links.resume_ORCID_url %}
-  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_ORCID_url }}" class="icon-link-no-mouseover" itemprop="sameAs">{% include icons/icon-ORCID.html %}</a></li>
-  {% endif %}
-  
-  <!-- Phone link -->
-  {% if site.resume_social_links.resume_phone_url %}
-  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_phone_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-phone.html %}</a></li>
-  {% endif %}
-  
   <!-- Publications link -->
   {% if site.resume_social_links.resume_publications_url %}
   <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_publications_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-publications.html %}</a></li>
@@ -20,6 +10,21 @@
   <!-- Work link -->
   {% if site.resume_social_links.resume_work_url %}
   <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_work_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-work.html %}</a></li>
+  {% endif %}
+  
+  <!-- Name link -->
+  {% if site.resume_social_links.resume_name_url %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_name_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-name.html %}</a></li>
+  {% endif %}
+  
+   <!-- Phone link -->
+  {% if site.resume_social_links.resume_phone_url %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_phone_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-phone.html %}</a></li>
+  {% endif %} 
+  
+  <!-- ORCID link -->
+  {% if site.resume_social_links.resume_ORCID_url %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_ORCID_url }}" class="icon-link-no-mouseover" itemprop="sameAs">{% include icons/icon-ORCID.html %}</a></li>
   {% endif %}
   
   <!-- GitHub link -->
