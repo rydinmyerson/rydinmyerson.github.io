@@ -49,13 +49,13 @@
 
     .icon {
       height: 32px;
-      margin-bottom: -10px;
-      padding-right: 4px
+      padding-right: 4px;
+      vertical-align: middle;
     }
     
     .icon-caption {
       font-size: .5rem;
-      margin-bottom: .25rem;
+      vertical-align: middle;
     }
   }
   .header-contact-info p a {
