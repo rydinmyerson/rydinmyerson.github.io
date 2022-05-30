@@ -2,6 +2,26 @@
 {% if site.resume_print_social_links %}
 <ul>
 
+  <!-- ORCID link -->
+  {% if site.resume_social_links.resume_ORCID_url %}
+  <li><strong>ORCID</strong>: {{ site.resume_social_links.resume_ORCID_url }}</li>
+  {% endif %}
+  
+  <!-- Phone link -->
+  {% if site.resume_social_links.resume_phone_url %}
+  <li><strong>Phone</strong>: {{ site.resume_social_links.resume_phone_url }}</li>
+  {% endif %}
+  
+  <!-- Publications link -->
+  {% if site.resume_social_links.resume_publications_url %}
+  <li><strong>Publications</strong>: {{ site.resume_social_links.resume_publications_url }}</li>
+  {% endif %}
+  
+  <!-- Work link -->
+  {% if site.resume_social_links.resume_work_url %}
+  <li><strong>Work</strong>: {{ site.resume_social_links.resume_work_url }}</li>
+  {% endif %}
+  
   <!-- GitHub link -->
   {% if site.resume_social_links.resume_github_url %}
   <li><strong>Github</strong>: {{ site.resume_social_links.resume_github_url }}</li>
