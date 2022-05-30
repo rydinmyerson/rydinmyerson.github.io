@@ -42,6 +42,14 @@
   .header-contact-info {
     @include sans;
     text-align: center;
+    
+    .icon-link {
+      display: inline-block;
+    }
+
+    .icon {
+      height: 28px;
+    }
   }
   .header-contact-info p a {
     color: inherit;
