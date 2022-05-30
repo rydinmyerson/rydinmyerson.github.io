@@ -118,6 +118,10 @@
       @include transition(all .2s ease);
     }
   }
+  
+  .icon-link-no-mouseover {
+     display: inline-block;
+  }
 
   .icon {
     height: 28px;
