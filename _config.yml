@@ -35,6 +35,12 @@ resume_header_intro: "<p>I am a mathematician, and I study the solutions to equa
 
 # Decide which sections to use
 # comment out to hide
+# This is what I want:
+# Research interests (?=interests?)
+# Publications (? based on projects)
+# Graduate supervision (? based on links)
+# CV
+# ZORP
 resume_section_experience:      true
 resume_section_education:       true
 resume_section_projects:        true
@@ -49,6 +55,9 @@ resume_section_associations:    true
 # These are the links I want:
 # WRAP https://wrap.warwick.ac.uk/view/author_id/381400.html
 # phone (People Search) https://peoplesearch.warwick.ac.uk/profile/1972891/0
+# dept https://warwick.ac.uk/fac/sci/maths/people/staff/myerson/
+# fellowship https://warwick.ac.uk/research/supporting-talent/fellowships/sci-fellowships/ecr/simon-myerson
+# ORCID
 resume_social_links:
   resume_github_url:            "https://github.com/jglovier/resume-template"
   resume_twitter_url:           "http://twitter.com/jglovier"
