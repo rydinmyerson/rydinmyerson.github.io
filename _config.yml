@@ -20,12 +20,12 @@ resume_contact_email:           "simon.rydin-myerson@warwick.ac.uk"
 resume_contact_telephone:       "555-7334"
 resume_contact_address:         "742 Evergreen Terrace, Springfield"
 
-resume_header_contact_info:     "<span>Office&nbsp;B2.19</span> • <span>Mathematics&nbsp;Institute</span> • <span>Zeeman&nbsp;Building</span> • <span>University&nbsp;of&nbsp;Warwick</span> • <span>Coventry&nbsp;CV4&nbsp;7AL</span> • <span>simon.rydin-myerson@<wbr>warwick.ac.uk</span> • <span>he/him/his or they/them/theirs</span> • <span>Please call me Simon <a href='https://www.name-coach.com/simon-rydinmyerson' class='icon-link' itemprop='url'><img src='images/speaker-32px.png' class=icon></img><span class='icon-caption'>Hear&nbsp;my&nbsp;name</span></a></span>"
+resume_header_contact_info:     " <span>Mathematics&nbsp;Institute</span> • <span>University&nbsp;of&nbsp;Warwick</span> •<span>Office&nbsp;B2.19</span> • <span>Zeeman&nbsp;Building</span>  • <span>Coventry&nbsp;CV4&nbsp;7AL</span> • <span>simon.rydin-myerson@<wbr>warwick.ac.uk</span> • <span>he/him/his or they/them/theirs</span> • <span>Please call me Simon <a href='https://www.name-coach.com/simon-rydinmyerson' class='icon-link' itemprop='url'><img src='images/speaker-32px.png' class=icon></img><span class='icon-caption'>Hear&nbsp;my&nbsp;name</span></a></span>"
 display_header_contact_info:    "true"
 
 resume_header_intro: "<p>I study the solutions to equations and inequalities in whole numbers. These are called Diophantine problems and they’re part of number theory. I use “analytic” arguments which are often fairly elementary, which makes it analytic number theory.</p>
 <p>I’ve become interested in something which seems very different: nonlinear dispersive partial differential equations (nonlinear dispersive PDEs). This is a type of mathematical model which describes physical systems from ocean waves to fibre optic cables.</p>
-<p>You can read more about my work on my <a href='https://warwick.ac.uk/research/supporting-talent/fellowships/sci-fellowships/ecr/simon-myerson'>Fellowship webpage</a>."
+<p>You can read more about my work on my <a href='https://warwick.ac.uk/research/supporting-talent/fellowships/sci-fellowships/ecr/simon-myerson'>Fellowship webpage</a>. I am funded by the <a href='https://www.leverhulme.ac.uk'>Leverhulme Trust</a></p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -54,9 +54,9 @@ resume_section_associations:    true
 # WRAP (papers) https://wrap.warwick.ac.uk/view/author_id/381400.html
 # phone (People Search) https://peoplesearch.warwick.ac.uk/profile/1972891/0
 # dept (briefcase) https://warwick.ac.uk/fac/sci/maths/people/staff/myerson/
-# fellowship (Leverhulme) https://warwick.ac.uk/research/supporting-talent/fellowships/sci-fellowships/ecr/simon-myerson
 # ORCID
 resume_social_links:
+  resume_ORCID_url:             "https://orcid.org/0000-0002-1486-6054"
   resume_github_url:            "https://github.com/jglovier/resume-template"
   resume_twitter_url:           "http://twitter.com/jglovier"
   resume_dribbble_url:          "https://dribbble.com/jag"
