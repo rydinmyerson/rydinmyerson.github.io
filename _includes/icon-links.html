@@ -27,6 +27,12 @@
     <span class="tooltiptext">Hear my name</span></a></li>
   {% endif %}
   
+  <!-- arXiv link -->
+  {% if site.resume_social_links.resume_arXiv_url %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_arXiv_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-arXiv.html %}
+    <span class="tooltiptext">arXiv</span></a></li>
+  {% endif %}
+  
   <!-- Publications link -->
   {% if site.resume_social_links.resume_publications_url %}
   <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_publications_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-publications.html %}
