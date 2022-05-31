@@ -1,6 +1,10 @@
 # Site settings
 title: "Simon L. Rydin Myerson"
-description: "Personal page of Simon L. Rydin Myerson"
+tagline: "Personal page of Simon L. Rydin Myerson"
+description: "I am Simon L. Rydin Myerson and this is my personal webpage. Here I describe my mathematical research. There is also a list of my publications and there are links to other profiles of me around the internet."
+author:
+  name: Simon L. Rydin Myerson
+  url: https://warwick.ac.uk/fac/sci/maths/people/staff/myerson
 
 # Build settings
 markdown: kramdown
