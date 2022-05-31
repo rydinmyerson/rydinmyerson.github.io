@@ -111,21 +111,23 @@
           <p class="resume-item-copy">
           {% if project.coauthors %}With {{ project.coauthors }}{% endif %}
           {% if project.journal %}{{ project.journal }}{% if project.issuepages %}, {{project.issuepages}}{% endif %}.{% endif %}
-          (
-            {% if project.url %}
+          (#
+            {% if project.url %}#
               <a href="{{ project.url }}" itemprop="url">{% if project.identifier %}{{ project.identifier }}{% else %}{{ project.url }}{% endif %}</a>,
-            {% else %}
-              {% if project.identifier %}{{ project.identifier }},{% endif %}
-            {% endif %}
-            {% if project.year %}
-              {% if project.note %}
-                {{ project.year }}, {{project.note}}
-              {% endif %}
-            {% else %}
-              {% if project.note %}
-                {{project.note}}
-              {% endif %}
-            {% endif %}
+            {% else %}#
+              {% if project.identifier %}{{ project.identifier }},{% endif %}#
+            {% endif %}#
+            {% if project.year %}#
+              {% if project.note %}#
+                {{ project.year }}, {{project.note}}#
+              {% else %}#
+                {{project.year}}#
+              {% endif %}#
+            {% else %}#
+              {% if project.note %}#
+                {{project.note}}#
+              {% endif %}#
+            {% endif %}#
           )
           </p>
           
