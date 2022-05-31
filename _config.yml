@@ -25,7 +25,7 @@ display_header_contact_info:    "true"
 
 resume_header_intro: "<p>I study the solutions to equations and inequalities in whole numbers. These are called Diophantine problems and they’re part of number theory. I use “analytic” arguments which are often fairly elementary, which makes it analytic number theory.</p>
 <p>I’ve become interested in something which seems very different: nonlinear dispersive partial differential equations (nonlinear dispersive PDEs). This is a type of mathematical model which describes physical systems from ocean waves to fibre optic cables.</p>
-<p>You can read more about my work on my <a href='https://warwick.ac.uk/research/supporting-talent/fellowships/sci-fellowships/ecr/simon-myerson'>Fellowship webpage</a>. I am funded by the <a href='https://www.leverhulme.ac.uk'>Leverhulme Trust</a>.</p>"
+<p>You can read more about my work at the links above.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -57,6 +57,7 @@ resume_header_intro: "<p>I study the solutions to equations and inequalities in 
 # tooltip on left (then pos relative to list is OK)
 resume_social_links:
   resume_CV_url:                "https://www.dropbox.com/s/9kq3bz0dzggs8zh/CV.pdf?dl=1"
+  resume_funding_url:           "https://warwick.ac.uk/research/supporting-talent/fellowships/sci-fellowships/ecr/simon-myerson"
   resume_work_url:              "https://warwick.ac.uk/fac/sci/maths/people/staff/myerson"
   resume_name_url:              "https://www.name-coach.com/simon-rydinmyerson"
   resume_publications_url:      "https://wrap.warwick.ac.uk/view/author_id/381400.html"
