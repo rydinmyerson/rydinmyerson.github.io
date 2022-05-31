@@ -66,6 +66,7 @@
 
   .title-bar {
     @include section_border;
+    @include sans;
     margin-top: 2rem;
     padding: .4rem 0;
     @include clearfix;
