@@ -1,4 +1,5 @@
 # Site settings
+url: "https://maths.fan"
 title: "Simon L. Rydin Myerson"
 tagline: "Personal page of Simon Leo Rydin Myerson"
 description: "I am Simon Leo Rydin Myerson and this is my personal webpage. Here I describe my mathematical research. There is also a list of my publications and there are links to other profiles of me around the internet."
@@ -14,6 +15,7 @@ sass:
   style: compressed
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Resume settings
 resume_avatar:                  "true"
