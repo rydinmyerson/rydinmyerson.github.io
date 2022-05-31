@@ -70,6 +70,10 @@
     margin-top: 2rem;
     padding: .4rem 0;
     @include clearfix;
+    
+    .social-links-info {
+      float:left;
+    }
 
     .header-title {
       @include sans;
