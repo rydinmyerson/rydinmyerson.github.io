@@ -222,6 +222,7 @@
   
   .publication-title {
     @include sans_bold;
+    font-weight: bold;
   }
 
   .resume-item-title,
