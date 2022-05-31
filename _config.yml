@@ -56,9 +56,10 @@ resume_header_intro: "<p>I study the solutions to equations and inequalities in 
 # link to Nuno's page somehow - I guess in the page text
 # tooltip on left (then pos relative to list is OK)
 resume_social_links:
-  resume_publications_url:      "https://wrap.warwick.ac.uk/view/author_id/381400.html"
+  resume_CV_url:                "https://www.dropbox.com/s/9kq3bz0dzggs8zh/CV.pdf?dl=1"
   resume_work_url:              "https://warwick.ac.uk/fac/sci/maths/people/staff/myerson"
   resume_name_url:              "https://www.name-coach.com/simon-rydinmyerson"
+  resume_publications_url:      "https://wrap.warwick.ac.uk/view/author_id/381400.html"
   resume_phone_url:             "https://peoplesearch.warwick.ac.uk/profile/1972891"
   resume_ORCID_url:             "https://orcid.org/0000-0002-1486-6054"
   #resume_github_url:            "https://github.com/jglovier/resume-template"
