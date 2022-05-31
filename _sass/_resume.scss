@@ -60,19 +60,8 @@
     }
   }
   
-  .header-contact-info p {
+  .header-contact-info p a {
     color: inherit;
-  }
-  
-  .header-contact-info a {
-      color: #333;
-      text-decoration: none;
-      border-bottom: 1px solid;
-
-      &:hover {
-        border-bottom: none;
-        color: #9c9c9c;
-    }
   }
 
   .title-bar {
@@ -99,6 +88,17 @@
 
   .executive-summary {
     @include media_larger_than_mobile { font-size: 1.125rem; }
+  }
+  
+  a {
+      color: #333;
+      text-decoration: none;
+      border-bottom: 1px solid;
+
+      &:hover {
+        border-bottom: none;
+        color: #9c9c9c;
+    }
   }
 }
 
