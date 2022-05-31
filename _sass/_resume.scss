@@ -221,7 +221,7 @@
   }
   
   .publication-title {
-    display:inline;
+    @include sans_bold;
   }
 
   .resume-item-title,
