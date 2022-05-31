@@ -1,16 +1,85 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+- project: Systems of forms in many variables
+  url: "https://arxiv.org/abs/1709.08917"
+  identifier: "arXiv:1709.08917"
+  pagecount: 15pp
+	note:	"improved version in preparation, see my <a href='https://www.hcm.uni-bonn.de/thecirclemethod2021/'>recorded HCM lecture series</a> for details"
+  
+- project: Additive problems with almost prime squares
+  coauthors: "Blomer, V.; Grimmelt, L.; and Li, J."
+  url: "https://arxiv.org/pdf/2111.01601}"
+  identifier: "arxiv:2111.01601"
+  pagecount: 38pp
+	note:	improved version in preparation
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+- project: The elliptic sieve and Brauer groups
+  coauthors: "Bhakta, S; Loughran, D.; and  Nakahara, M."
+  url: "https://arxiv.org/pdf/2109.03746"
+  identifier: "arxiv:2109.03746"
+  pagecount: 31pp
+  note: submitted
+
+- project: Bounds for spectral projectors on the Euclidean cylinder
+  coauthors: "With Germain, P."
+  journal: "Comptes Rendus Math."
+  publisher: "Elsevier of behalf of the French Academy of Sciences"
+  url: "https://arxiv.org/pdf/2203.08273"
+  identifier: "arxiv:2203.08273"
+  pagecount: 5pp
+  note: in press
+
+- project: Strichartz estimates for the Schroedinger equation on non-rectangular two-dimensional tori
+  coauthors: "Deng, Y.; Germain, P.; and Guth, L."
+  journal: "Amer. J. Math."
+  publisher: "Johns Hopkins University Press"
+  url: "https://arxiv.org/abs/1810.05630"
+  identifier: "arXiv:1810.05630"
+  pagecount: 31pp
+  note: in press
+ 
+- project: Bounds for spectral projectors on tori
+  coauthors: "Germain, P."
+  journal: "Forum of Mathematics, Sigma"
+  issuepages: "10:e24"
+  publisher: Cambridge University Press  journal: "
+  url: "https://doi.org/10.1017/fms.2022.18"
+  identifier: "doi:10.1017/fms.2022.18"
+  pagecount: 14pp
+ 	year: 2022
+ 
+- project: Quadratic forms and systems of forms in many variables
+  journal: "Invent. math."
+  issuepages: "213:205-235"
+  publisher: Springer-Verlag
+  url: "https://doi.org/10.1007/s00222-018-0789-x"
+  identifier: "doi:10.1007/s00222-018-0789-x"
+  pagecount: 36pp
+	year:2018
+ 
+- project: Systems of cubic forms in many variables
+  journal: "J. Reine Agnew. Math. (Crelles Journal)"
+  issuepages: "757(2019):309-328"
+  publisher: De Gruyter
+  url: "https://doi.org/10.1515/crelle-2017-0040"
+  identifier: "doi:10.1515/crelle-2017-0040"
+	pagecount: 29pp
+	year: 2017
+ 
+- project: Systems of many forms
+  journal: "DPhil thesis, University of Oxford"
+  url: "https://ora.ox.ac.uk/objects/uuid:a9932e90-4784-466a-a694-d387c1228533"
+  identifier: "uuid:a9932e90-4784-466a-a694-d387c1228533"
+	pagecount: 120pp
+	year: 2016
+
+- project: Real and rational systems of forms
+  journal: "In Oberwolfach Reports"
+  issuepages: "13(4):3013-14"
+  publisher: EMS Press
+  url: "https://doi.org/10.4171/OWR/2016/53"
+  identifier: "doi:10.4171/OWR/2016/53"
+	pagecount: 2pp
+	year: 2016
+
