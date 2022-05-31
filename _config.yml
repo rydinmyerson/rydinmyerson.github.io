@@ -7,7 +7,7 @@ author:
   name: Simon Leo Rydin Myerson
   url: https://www.ucl.ac.uk/~ucahslm/
 locale: en_GB
-language: en-gb
+lang: en-gb
 
 # Build settings
 markdown: kramdown
