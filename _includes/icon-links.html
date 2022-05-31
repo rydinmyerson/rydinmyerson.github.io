@@ -3,9 +3,15 @@
 <ul class="icon-links">
   
   <!-- CV link -->
-  {% if site.resume_social_links.resume_publications_url %}
+  {% if site.resume_social_links.resume_cv_url %}
   <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_cv_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-cv.html %}
     <span class="tooltiptext">CV</span></a></li>
+  {% endif %}
+  
+  <!-- Funding link -->
+  {% if site.resume_social_links.resume_funding_url %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_funding_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-funding.html %}
+    <span class="tooltiptext">Fellowship project</span></a></li>
   {% endif %}
   
   <!-- Work link -->
