@@ -26,8 +26,8 @@ resume_title:                   "Leverhulme Early Career Fellow and Warwick Zeem
 resume_contact_email:           "simon.rydin-myerson@warwick.ac.uk"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "555-7334"
-resume_contact_address:         "742 Evergreen Terrace, Springfield"
+# resume_contact_telephone:       "555-7334"
+resume_contact_address:         "Mathematics Institute, Zeeman Building, University of Warwick, Coventry CV4 7AL"
 
 resume_header_contact_info:     "<span>Mathematics&nbsp;Institute</span> • <span>University&nbsp;of&nbsp;Warwick</span> </p><p> <span>Office&nbsp;B2.19</span> • <span>Zeeman&nbsp;Building</span>  • <span>Coventry&nbsp;CV4&nbsp;7AL</span> • <span>simon.rydin-myerson [at] warwick.ac.uk</span> • <span>he/him/his or they/them/theirs</span> • <span>Please call me Simon</span>"
 display_header_contact_info:    "true"
