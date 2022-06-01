@@ -58,7 +58,7 @@ resume_section_links:           true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_cv_url:                "https://www.dropbox.com/s/0fbpufvc9mkew73/CV.pdf?raw=1"
+  resume_cv_url:                "https://www.dropbox.com/s/0fbpufvc9mkew73/cv.pdf?raw=1"
   resume_funding_url:           "https://warwick.ac.uk/research/supporting-talent/fellowships/sci-fellowships/ecr/simon-myerson"
   resume_work_url:              "https://warwick.ac.uk/fac/sci/maths/people/staff/myerson"
   resume_name_url:              "https://www.name-coach.com/simon-rydinmyerson"
