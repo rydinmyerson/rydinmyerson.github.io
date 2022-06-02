@@ -191,7 +191,7 @@
     &:hover .tooltiptext {
       visibility: visible;
       opacity: 100;
-      color: #fff;
+      color: ##D1CECC;
       @include transition(all .2s ease);
     }
     &:hover .tooltiptext::after {
