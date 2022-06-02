@@ -71,19 +71,16 @@
     padding: .4rem 0;
     @include clearfix;
     
-    .social-links-info {
-      float:left;
-      margin: 0.75rem 0 0;
-      
-      @include media_larger_than_mobile {
-        margin: 0.45rem 0 0;
-      }
-     
-     .social-links-arrow {
-      color: #D1CECC;
-      }
-      
-    }
+//    .social-links-info {
+//      float:left;
+//      margin: 0.75rem 0 0;
+//      @include media_larger_than_mobile {
+//        margin: 0.45rem 0 0;
+//      }
+//     .social-links-arrow {
+//      color: #D1CECC;
+//      }
+//    }
 
     .header-title {
       @include sans;
@@ -140,7 +137,7 @@
   
   &:not(:hover) .spotlight {
     .icon path {
-      fill: #bdbab8;
+      fill: #c7c4c2;
     };
     .tooltiptext {
       visibility: visible;
@@ -168,13 +165,13 @@
       padding: 5px 10px;
       border-radius: 6px;
     
-      @include transition(all .5s ease);
+      @include transition(all 1s ease);
  
       /* Position the tooltip text */
       position: absolute;
       z-index: 1;
       top: -5px;
-      right: 105%;
+      right: 110%;
     }
     
     .tooltiptext::after {
