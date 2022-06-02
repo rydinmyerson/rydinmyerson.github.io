@@ -191,8 +191,11 @@
     &:hover .tooltiptext {
       visibility: visible;
       opacity: 100;
-      color: #8b8886;
+      color: #c7c7c7;
       @include transition(all .2s ease);
+    }
+    &:hover .tooltiptext::after {
+      border-color: transparent transparent transparent #c7c7c7;
     }
   }
   
