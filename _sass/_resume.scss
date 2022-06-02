@@ -10,7 +10,7 @@
   h2 {
     @include sans;
     font-weight: 900;
-    font-size: 1.75rem;
+    fonticon-li-size: 1.75rem;
     letter-spacing: -.05rem;
     margin: 0;
   }
@@ -151,6 +151,7 @@
   .icon-link { display: inline-block;
     
     .icon path {
+      fill: #333;
       @include transition(all .5s ease);
     }
     
