@@ -68,8 +68,9 @@
     @include section_border;
     @include sans;
     margin-top: 2rem;
-    padding: .5rem 0;
+    padding: .4rem 0;
     @include clearfix;
+    @include media_larger_than_mobile { padding: .5rem 0; }
     
 //    .social-links-info {
 //      float:left;
