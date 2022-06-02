@@ -151,7 +151,7 @@
   .icon-link { display: inline-block;
     
     .icon path {
-      @include transition(all .4s ease);
+      @include transition(all .3s ease);
     }
     
     &:hover .icon path {
@@ -164,12 +164,11 @@
       visibility: hidden;
       opacity: 0;
       color: #c7c7c7;
-      border-color: #c7c7c7;
       text-align: center;
       padding: 5px 10px;
       border-radius: 6px;
     
-      @include transition(all .4s ease);
+      @include transition(all .5s ease);
  
       /* Position the tooltip text */
       position: absolute;
@@ -186,7 +185,7 @@
       margin-top: -5px;
       border-width: 5px;
       border-style: solid;
-      border-color: transparent transparent transparent black;
+      border-color: transparent transparent transparent #c7c7c7;
     }
 
     /* Show the tooltip text when you mouse over the tooltip container */
