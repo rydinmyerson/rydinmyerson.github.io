@@ -15,5 +15,5 @@ function spotlightNextIcon() {
 }
 
 function startTimer() {
-    setInterval(spotlightNextIcon,3000);
+    setInterval(spotlightNextIcon,2500);
 }
