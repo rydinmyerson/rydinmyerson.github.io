@@ -137,7 +137,7 @@
   
   &:not(:hover) .spotlight {
     .icon path {
-      fill: #b3b0ae;
+      fill: #a9a6a4;
       @include transition(all .5s ease);
     };
     .tooltiptext {
@@ -167,7 +167,7 @@
       padding: 5px 10px;
       border-radius: 6px;
     
-      @include transition(all .4s ease);
+      @include transition(all .3s ease);
  
       /* Position the tooltip text */
       position: absolute;
@@ -191,6 +191,11 @@
     &:hover .tooltiptext {
       visibility: visible;
       opacity: 100;
+      color: #D1CECC;
+      @include transition(all .2s ease);
+    }
+    &:hover .tooltiptext::after {
+      border-color: transparent transparent transparent #D1CECC;
     }
   }
   
