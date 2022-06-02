@@ -137,11 +137,13 @@
   
   &:not(:hover) .spotlight {
     .icon path {
-      fill: #c7c4c2;
+      fill: #b3b0ae;
+      @include transition(all .5s ease);
     };
     .tooltiptext {
       visibility: visible;
       opacity: 100;
+      @include transition(all 1s ease);
     };
   };
 
@@ -160,12 +162,12 @@
       white-space: nowrap;
       visibility: hidden;
       opacity: 0;
-      color: #c7c7c7;
+      color: #ccc;
       text-align: center;
       padding: 5px 10px;
       border-radius: 6px;
     
-      @include transition(all 1s ease);
+      @include transition(all .4s ease);
  
       /* Position the tooltip text */
       position: absolute;
@@ -182,7 +184,7 @@
       margin-top: -5px;
       border-width: 5px;
       border-style: solid;
-      border-color: transparent transparent transparent #c7c7c7;
+      border-color: transparent transparent transparent #ccc;
     }
 
     /* Show the tooltip text when you mouse over the tooltip container */
