@@ -137,7 +137,7 @@
   
   &:not(:hover) .spotlight {
     .icon path {
-      fill: #817e7c;
+      fill: #8b8886;
       @include transition(all .5s ease);
     };
     .tooltiptext {
@@ -191,7 +191,7 @@
     &:hover .tooltiptext {
       visibility: visible;
       opacity: 100;
-      color: ##D1CECC;
+      color: #D1CECC;
       @include transition(all .2s ease);
     }
     &:hover .tooltiptext::after {
