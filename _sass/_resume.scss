@@ -128,24 +128,24 @@
     float: right;
     border-top: none;
     padding-top: 0;
+    
+    &:not(:hover) .spotlight {
+      .icon path {
+        fill: #8b8886;
+        @include transition(all .5s ease);
+      }
+      .tooltiptext {
+        visibility: visible;
+        opacity: 100;
+        @include transition(all 1s ease);
+      }
+    }
   }
 
   .icon-link-item {
     display: inline-block;
     margin-left: 5px;
   }
-  
-  &:not(:hover) .spotlight {
-    .icon path {
-      fill: #8b8886;
-      @include transition(all .5s ease);
-    };
-    .tooltiptext {
-      visibility: visible;
-      opacity: 100;
-      @include transition(all 1s ease);
-    };
-  };
 
   .icon-link { display: inline-block;
     
