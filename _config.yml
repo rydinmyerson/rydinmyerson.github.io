@@ -71,7 +71,7 @@ resume_social_links:
   resume_publications_url:      "https://wrap.warwick.ac.uk/view/author_id/381400.html"
   resume_publications_tooltip:  "Publications (accepted)"
   resume_phone_url:             "https://peoplesearch.warwick.ac.uk/profile/1972891"
-  resume_phone_tooltip:         "Phone (Warwick users only)"
+  resume_phone_tooltip:         "Phone (for Warwick users)"
   resume_ORCID_url:             "https://orcid.org/0000-0002-1486-6054"
   resume_ORCID_tooltip:         "ORCID iD"
   #resume_github_url:            "https://github.com/jglovier/resume-template"
