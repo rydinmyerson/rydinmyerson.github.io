@@ -138,13 +138,20 @@
     margin-left: 5px;
   }
   
-  
-  &:hover .icon-link .icon path {
-    fill: green;
-  }
+  &:not(:hover) .spotlight {
+    .icon path {
+      fill: #bdbab8;
+    };
+    .tooltiptext {
+      visibility: visible;
+      opacity: 100;
+    };
+  };
 
   .icon-link { display: inline-block;
-
+    
+    @include transition(all .5s ease);
+    
     &:hover .icon path {
       fill: #333;
       @include transition(all .2s ease);
@@ -152,6 +159,7 @@
   
     .tooltiptext {
       visibility: hidden;
+      opacity: 0;
       width: 180px;
       background-color: black;
       color: #fff;
@@ -180,6 +188,7 @@
     /* Show the tooltip text when you mouse over the tooltip container */
     &:hover .tooltiptext {
       visibility: visible;
+      opacity: 100;
     }
   }
   
