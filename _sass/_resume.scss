@@ -137,6 +137,11 @@
     display: inline-block;
     margin-left: 5px;
   }
+  
+  
+  &:hover .icon-link .icon path {
+    fill: green;
+  }
 
   .icon-link { display: inline-block;
 
