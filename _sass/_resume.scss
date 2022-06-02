@@ -150,7 +150,9 @@
 
   .icon-link { display: inline-block;
     
-    @include transition(all .5s ease);
+    .icon path {
+      @include transition(all .5s ease);
+    }
     
     &:hover .icon path {
       fill: #333;
@@ -166,6 +168,8 @@
       text-align: center;
       padding: 5px 0;
       border-radius: 6px;
+    
+      @include transition(all .5s ease);
  
       /* Position the tooltip text */
       position: absolute;
