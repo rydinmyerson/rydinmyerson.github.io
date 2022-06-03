@@ -10,7 +10,7 @@
   h2 {
     @include sans;
     font-weight: 900;
-    fonticon-li-size: 1.75rem;
+    fonticon-li-size: 1.7rem;
     letter-spacing: -.05rem;
     margin: 0;
   }
@@ -173,7 +173,7 @@
       /* Position the tooltip text */
       position: absolute;
       z-index: 1;
-      padding: 5px 0;
+      padding: 0;
       width: 200px;
       top: 100%;
       left: 50%;
