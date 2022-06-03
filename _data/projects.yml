@@ -1,6 +1,11 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
+- coauthor: &BlomerV
+  name: "Blomer, V."
+  fullname: "Valentin Blomer"
+  url: https://www.math.uni-bonn.de/people/blomer/
+
 - project: Systems of forms in many variables
   url: "https://arxiv.org/abs/1709.08917"
   identifier: "arXiv:1709.08917"
