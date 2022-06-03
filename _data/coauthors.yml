@@ -1,7 +1,0 @@
-# Associations
-# comment out the urls if you do not wish to display them
-
-- coauthor: &BlomerV
-  name: "Blomer, V."
-  fullname: "Valentin Blomer"
-  url: https://www.math.uni-bonn.de/people/blomer/
