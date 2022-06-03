@@ -116,7 +116,7 @@
 }
 
 .icon-links {
-  margin: 0;
+  margin: 0 0 1.7rem;
   padding: 0;
   list-style: none;
   position: relative;
@@ -125,22 +125,23 @@
   border-top: 2px solid #c7c7c7;
   padding-top: .4rem;
 
+  &:not(:hover) .spotlight {
+    .icon path {
+      fill: #8b8886;
+      @include transition(all .5s ease);
+    }
+    .tooltiptext {
+      visibility: visible;
+      opacity: 100;
+      @include transition(all 1s ease);
+    }
+  }
+
   @include media_larger_than_mobile {
     float: right;
     border-top: none;
     padding-top: 0;
-    
-    &:not(:hover) .spotlight {
-      .icon path {
-        fill: #8b8886;
-        @include transition(all .5s ease);
-      }
-      .tooltiptext {
-        visibility: visible;
-        opacity: 100;
-        @include transition(all 1s ease);
-      }
-    }
+    margin: 0;
   }
 
   .icon-link-item {
@@ -148,7 +149,8 @@
     margin-left: 5px;
   }
 
-  .icon-link { display: inline-block;
+  .icon-link {
+    display: inline-block;
     
     .icon path {
       @include transition(all .3s ease);
@@ -165,27 +167,42 @@
       opacity: 0;
       color: #ccc;
       text-align: center;
-      padding: 5px 10px;
       border-radius: 6px;
-    
       @include transition(all .3s ease);
  
       /* Position the tooltip text */
       position: absolute;
       z-index: 1;
-      top: -5px;
-      right: 110%;
+      padding: 5px 0;
+      width: 200px;
+      top: 100%;
+      left: 50%;
+      right: auto;
+      margin-left: -100px;
+      
+      @include media_larger_than_mobile {
+        padding: 5px 10px;
+        top: -5px;
+        right: 110%;
+        width:auto;
+      }
     }
     
-    .tooltiptext::after {
-      content: " ";
-      position: absolute;
-      top: 50%;
-      left: 100%; /* To the right of the tooltip */
-      margin-top: -5px;
-      border-width: 5px;
-      border-style: solid;
-      border-color: transparent transparent transparent #ccc;
+    
+    @include media_larger_than_mobile {
+       .tooltiptext::after {
+        content: " ";
+        position: absolute;
+        top: 50%;
+        left: 100%; /* To the right of the tooltip */
+        margin-top: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent transparent #ccc;
+      }
+      &:hover .tooltiptext::after {
+        border-color: transparent transparent transparent #c7c7c7;
+      }
     }
 
     /* Show the tooltip text when you mouse over the tooltip container */
@@ -194,9 +211,6 @@
       opacity: 100;
       color: #c7c7c7;
       @include transition(all .2s ease);
-    }
-    &:hover .tooltiptext::after {
-      border-color: transparent transparent transparent #c7c7c7;
     }
   }
   
