@@ -116,6 +116,7 @@
           -->{% if project.year %}<!--
               -->{% if project.note %}{{ project.year }}, {{project.note}}{% else %}{{project.year}}{% endif %}<!--
           -->{% else %}{{project.note}}{% endif %})
+          {% if project.test-field %} {{ project.test-field.name }} {% endif %}
           </p>
         </div>
         {% endfor %}
