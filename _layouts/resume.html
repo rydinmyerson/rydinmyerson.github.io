@@ -108,7 +108,7 @@
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="Rydin Myerson, S. L." itemtype="http://schema.org/Person" />
           {% if project.coauthors %}<meta itemprop="creator" content="{{ project.coauthors }}" itemtype="http://schema.org/Person" />{% endif %}
-          <p class="resume-item-copy"><span class="publication-title" itemprop="name">{{ project.project }}</span>{% if project.coauthors %}, with {{ project.coauthors }}{% else %}.{% endif %}
+          <p class="resume-item-copy"><span class="publication-title" itemprop="name">{{ project.project }}</span>{% if project.coauthors %}, with {{ project.coauthors }}{% if project.journal %},{% endif %}{% else %}.{% endif %}
           {% if project.journal %}{{ project.journal }}{% if project.issuepages %}, {{project.issuepages}}{% endif %}{% endif %}
           ({% if project.url %}<a
               href="{{ project.url }}" itemprop="url">{% if project.identifier %}{{ project.identifier }}{% else %}{{ project.url }}{% endif %}</a>,
