@@ -116,9 +116,9 @@
               {% for coauthor in project.coauthor-list %}
               <span itemprop="creator" itemscope itemtype="http://schema.org/Person">
                   <meta itemprop="name" content="{{ site.data.coauthors[coauthor].full-name }}" />
-                  {% if coauthor.url %}<a href="{{ site.data.coauthors[coauthor].url }}" itemprop="url">{% endif %}
-                  {{ site.data.coauthors[coauthor].name }}
-                  {% if site.data.coauthors[coauthor].url %}</a>{% endif %}<!--
+                  {% if site.data.coauthors[coauthor].url %}<a href="{{ site.data.coauthors[coauthor].url }}" itemprop="url">{% endif %}
+                  {{ site.data.coauthors[coauthor].name }}<!--
+                  -->{% if site.data.coauthors[coauthor].url %}</a>{% endif %}<!--
                 --></span><!--
                 -->{%if forloop.last == false %};{% endif %}<!--
               -->{% endfor %}{% if project.journal %},{% endif %}<!--
