@@ -22,7 +22,8 @@
   note: submitted
 
 - project: Bounds for spectral projectors on the Euclidean cylinder
-  coauthors: "Germain, P."
+  coauthor-list:
+    - GermainP
   journal: "Comptes Rendus Math."
   publisher: "Elsevier of behalf of the French Academy of Sciences"
   url: "https://arxiv.org/pdf/2203.08273"
