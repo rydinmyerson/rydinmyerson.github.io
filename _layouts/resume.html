@@ -96,7 +96,8 @@
       <!-- end Education -->
       {% endif %}
 
-
+      
+      
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
       <section class="content-section">
@@ -106,17 +107,28 @@
 
         {% for project in site.data.projects %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
-          <meta itemprop="creator" content="Rydin Myerson, S. L." itemtype="http://schema.org/Person" />
-          {% if project.coauthors %}<meta itemprop="creator" content="{{ project.coauthors }}" itemtype="http://schema.org/Person" />{% endif %}
-          <p class="resume-item-copy"><span class="publication-title" itemprop="name">{{ project.project }}</span>{% if project.coauthors %}, with {{ project.coauthors }}{% if project.journal %},{% endif %}{% else %}.{% endif %}
-          {% if project.journal %}{{ project.journal }}{% if project.issuepages %}, {{project.issuepages}}{% endif %}{% endif %}
+          <meta itemprop="creator" content="{{site.author.name}}" itemtype="http://schema.org/Person" />
+          {% if project.coauthors %}
+               <meta itemprop="creator" content="{{ project.coauthors }}" itemtype="http://schema.org/Person" />
+          {% endif %}
+          <p class="resume-item-copy"><span class="publication-title" itemprop="name">{{ project.project }}</span><!--
+          -->{% if project.coauthor-list %}, with
+              {% for coauthor in project.coauthor-list %}
+              <span itemprop="creator" itemscope itemtype="http://schema.org/Person">
+                  <meta itemprop="name" content="{{ coauthor.full-name }}" />
+                  {% if coauthor.url %}<a href="{{ coauthor.url }}" itemprop="url">{% endif %}
+                  {{ coauthor.name }}
+                  {% if coauthor.url %}</a>{% endif %}<!--
+                --></span><!--
+                -->{%if forloop.last == false %};{% endif %}<!--
+              -->{% endfor %}{% if project.journal %},{% endif %}<!--
+          -->{% elsif project.coauthors %}, with {{ project.coauthors }}{% if project.journal %},{% endif %}{% else %}.{% endif %}
           ({% if project.url %}<a
-              href="{{ project.url }}" itemprop="url">{% if project.identifier %}{{ project.identifier }}{% else %}{{ project.url }}{% endif %}</a>,
-          {% else %}{% if project.identifier %}{{ project.identifier }},{% endif %}{% endif %}<!--
+              href="{{ project.url }}" itemprop="url">{% if project.identifier %}{{ <span itemprop="identifier">{{ project.identifier }}</span> }}{% else %}{{ project.url }}{% endif %}</a>,
+          {% else %}{% if project.identifier %}<span itemprop="identifier">{{ project.identifier }}</span>,{% endif %}{% endif %}<!--
           -->{% if project.year %}<!--
-              -->{% if project.note %}{{ project.year }}, {{project.note}}{% else %}{{project.year}}{% endif %}<!--
+              -->{% if project.note %}<span itemprop="datePublished">{{ project.year }}</span>, {{project.note}}{% else %}<span itemprop="datePublished">{{ project.year }}</span>{% endif %}<!--
           -->{% else %}{{project.note}}{% endif %})
-          {% if project.test-field %}{{ project.test-field.name }}{% endif %}
           </p>
         </div>
         {% endfor %}
