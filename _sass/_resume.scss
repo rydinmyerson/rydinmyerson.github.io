@@ -157,6 +157,8 @@
   .icon-link {
     display: inline-block;
   }
+
+  .icon-link-item{
     
     .icon path {
       @include transition(all .3s ease);
@@ -221,6 +223,7 @@
       @include transition(opacity .2s ease);
       @include transition(visibility .2s ease);
     }
+  }
 }
 
 .contact-button {
