@@ -1,7 +1,7 @@
-# Associations
+# Coauthors and collaborators
 # comment out the urls if you do not wish to display them
 
-GermainP
+GermainP:
   name: "Germain, P."
   full-name: "Pierre Germain"
   url: "https://cims.nyu.edu/~pgermain/"
