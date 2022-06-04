@@ -125,6 +125,10 @@
   border-top: 2px solid #c7c7c7;
   padding-top: .4rem;
 
+  .icon {
+    height: 28px;
+  }
+
   &:not(:hover) .spotlight {
     .icon path {
       fill: #8b8886;
@@ -152,6 +156,7 @@
 
   .icon-link {
     display: inline-block;
+  }
     
     .icon path {
       @include transition(all .3s ease);
@@ -192,7 +197,6 @@
       }
     }
     
-    
     @include media_larger_than_mobile {
        .tooltiptext::after {
         content: " ";
@@ -217,11 +221,6 @@
       @include transition(opacity .2s ease);
       @include transition(visibility .2s ease);
     }
-  }
-  
-  .icon {
-    height: 28px;
-  }
 }
 
 .contact-button {
