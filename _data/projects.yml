@@ -8,14 +8,20 @@
   note: "improved version in preparation, see my HCM lectures for details: <a href='https://youtube.com/playlist?list=PLul8LCT3AJqSJ5QvmtlONFC4rBNzmzMXq'>videos 1-3</a>, <a href='https://www.youtube.com/watch?v=qV51iYrNJ6s'>video 4</a>, <a href='https://www.hcm.uni-bonn.de/thecirclemethod2021/'>slides</a>"
   
 - project: Additive problems with almost prime squares
-  coauthors: "Blomer, V.; Grimmelt, L.; and Li, J."
+  coauthor-list:
+    - BlomerV
+    - GrimmeltL
+    - LiJ
   url: "https://arxiv.org/pdf/2111.01601}"
   identifier: "arxiv:2111.01601"
   pagecount: 38pp
   note: improved version in preparation
 
 - project: The elliptic sieve and Brauer groups
-  coauthors: "Bhakta, S; Loughran, D.; and  Nakahara, M."
+  coauthor-list:
+    - BhaktaS
+    - LoughranD
+    - NakaharaM
   url: "https://arxiv.org/pdf/2109.03746"
   identifier: "arxiv:2109.03746"
   pagecount: 31pp
@@ -32,7 +38,10 @@
   note: in press
 
 - project: Strichartz estimates for the Schroedinger equation on non-rectangular two-dimensional tori
-  coauthors: "Deng, Y.; Germain, P.; and Guth, L."
+  coauthor-list:
+    - DengY
+    - GermainP
+    - GuthL
   journal: "Amer. J. Math."
   publisher: "Johns Hopkins University Press"
   url: "https://arxiv.org/abs/1810.05630"
@@ -41,7 +50,8 @@
   note: in press
  
 - project: Bounds for spectral projectors on tori
-  coauthors: "Germain, P."
+  coauthor-list:
+    - GermainP
   journal: "Forum of Mathematics, Sigma"
   issuepages: "10:e24"
   publisher: Cambridge University Press
