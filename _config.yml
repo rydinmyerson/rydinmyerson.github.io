@@ -6,6 +6,11 @@ description: "This is a page about my research in maths. It has a list of my pub
 author:
   name: Simon Leo Rydin Myerson
   url: "https://warwick.ac.uk/fac/sci/maths/people/staff/myerson"
+  alternateName: Simon Rydin Myerson
+  givenName: Simon
+  additionalName: Leo
+  familyName: Rydin
+  familyName: Myerson
 locale: en_GB
 
 # Build settings
