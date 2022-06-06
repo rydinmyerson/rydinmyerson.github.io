@@ -22,10 +22,10 @@
         <meta itemprop="givenName" content="{{ site.author.givenName}}" />
         <meta itemprop="additionalName" content="{{ site.author.additionalName }}" />
         {% for name in site.author.alternateName %}
-           <meta itemprop="name" content="{{ site.author.alternateName }}" />
+           <meta itemprop="name" content="{{ name }}" />
         {% endfor %}
         {% for familyName in site.author.familyName %}
-            <meta itemprop="familyName" content="{{ site.author.familyName}}" />
+            <meta itemprop="familyName" content="{{ familyName }}" />
         {% endfor %}
         
         <h1 class="header-name" itemprop="alternateName">{{ site.resume_name }}</h1>
