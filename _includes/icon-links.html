@@ -13,7 +13,7 @@
   <!-- Funding link -->
   {% if site.resume_social_links.resume_funding_url %}
   <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_funding_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-funding.html %}
-      <div class="screenreader-only">Funding</div>
+      <div class="screenreader-only" itemprop="knowsAbout">Funding</div>
   </a><span class="tooltiptext">{{ site.resume_social_links.resume_funding_tooltip }}</span></li>
   {% endif %}
   
@@ -34,7 +34,7 @@
   <!-- arXiv link -->
   {% if site.resume_social_links.resume_arXiv_url %}
   <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_arXiv_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-arXiv.html %}
-      <div class="screenreader-only">arXiv</div>
+      <div class="screenreader-only" itemprop="knowsAbout">arXiv</div>
   </a><span class="tooltiptext">{{ site.resume_social_links.resume_arXiv_tooltip }}</span></li>
   {% endif %}
   
