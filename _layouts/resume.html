@@ -8,7 +8,8 @@
     <div class="wrapper" itemscope itemtype="http://schema.org/Person">
       {% if site.resume_contact_telephone %}<meta itemprop="telephone" content="{{ site.resume_contact_telephone }}"/>{% endif %}
       <meta itemprop="address" content="{{ site.resume_contact_address }}"/>
-
+      <meta itemprop="email" content="{{ site.resume_contact_email }}"/>
+      
       <header class="page-header">
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
@@ -17,12 +18,24 @@
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
-        <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
+        <meta itemprop="name" content="{{ site.author.name }}" />
+        <meta itemprop="givenName" content="{{ site.author.givenName}}" />
+        <meta itemprop="additionalName" content="{{ site.author.additionalName }}" />
+        {% for name in site.author.alternateName %}
+           <meta itemprop="name" content="{{ site.author.alternateName }}" />
+        {% endfor %}
+        {% for familyName in site.author.familyName %}
+            <meta itemprop="familyName" content="{{ site.author.familyName}}" />
+        {% endfor %}
+        
+        <h1 class="header-name" itemprop="alternateName">{{ site.resume_name }}</h1>
 
         <!-- To display contact info here, change `display_header_contact_info` value in _config.yml to true -->
         {% if site.display_header_contact_info == 'true' %}
         <div class="header-contact-info">
-          <p>{{ site.resume_header_contact_info }}</p>
+          <p>
+            {{ site.resume_header_contact_info }}
+          </p>
         </div>
         {% endif %}
 
