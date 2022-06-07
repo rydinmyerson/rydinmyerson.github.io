@@ -33,7 +33,7 @@
   
   <!-- arXiv link -->
   {% if site.resume_social_links.resume_arXiv_url %}
-  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_arXiv_url }}" class="icon-link" itemprop="mainEntityOfPage">{% include icons/icon-arXiv.html %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_arXiv_url }}" class="icon-link" itemprop="identifier">{% include icons/icon-arXiv.html %}
       <div class="screenreader-only" itemprop="knowsAbout">arXiv</div>
   </a><span class="tooltiptext">{{ site.resume_social_links.resume_arXiv_tooltip }}</span></li>
   {% endif %}
@@ -56,7 +56,7 @@
   {% if site.resume_social_links.resume_ORCID_url %}
   <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_ORCID_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-ORCID.html %}
       <div class="screenreader-only">ORCID</div>
-  </a><span class="tooltiptext">{{ site.resume_social_links.resume_ORCID_tooltip }}</span></li>
+  </a><span class="tooltiptext" itemprop="identifier" content="{{ site.resume_social_links.resume_ORCID_url }}">{{ site.resume_social_links.resume_ORCID_tooltip }}</span></li>
   {% endif %}
   
 </ul>
