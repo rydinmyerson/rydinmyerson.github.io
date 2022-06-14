@@ -121,11 +121,11 @@
         {% for project in site.data.projects %}
         <div class="resume-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
           <p class="resume-item-copy"><span class="publication-title" itemprop="name">{{ project.project }}</span>{%
-        if project.coauthor-list %}<span itemscope itemprop="creator" itemtype="http://schema.org/Person">, with  
+        if project.coauthor-list %}<span itemscope itemprop="author" itemtype="http://schema.org/Person">, with  
           <meta  itemprop="name" content="{{site.author.name}}" /><meta  itemprop="url" content="{{site.url}}" /></span>
               {% for coauthor in project.coauthor-list %}
               {% if forloop.first == false and forloop.last %}and{% endif %}
-              <span itemprop="creator" itemscope itemtype="http://schema.org/Person">
+              <span itemprop="author" itemscope itemtype="http://schema.org/Person">
                   <meta itemprop="name" content="{{ site.data.coauthors[coauthor].full-name }}" />
                   {% if site.data.coauthors[coauthor].url %}<a href="{{ site.data.coauthors[coauthor].url }}" itemprop="url">{% endif %}
                   {{ site.data.coauthors[coauthor].name }}{%
@@ -133,7 +133,7 @@
                 %}</span>{%
                 if forloop.last == false %};{% endif
               %}{% endfor %}{% if project.journal %},{% endif
-          %}{% else %}<span itemscope itemprop="creator" itemtype="http://schema.org/Person">.<meta  itemprop="name" content="{{site.author.name}}" /><meta  itemprop="url" content="{{site.url}}" /></span>{% endif %}
+          %}{% else %}<span itemscope itemprop="author" itemtype="http://schema.org/Person">.<meta  itemprop="name" content="{{site.author.name}}" /><meta  itemprop="url" content="{{site.url}}" /></span>{% endif %}
           {% if project.journal %}{{ project.journal }}{% if project.issuepages %}, {{project.issuepages}}{% endif %}{% endif %}
           ({% if project.url %}<a
               href="{{ project.url }}" itemprop="url">{% if project.identifier %}<span itemprop="identifier">{{ project.identifier }}</span>{% else %}<span itemprop="url">{{ project.url }}</span>{% endif %}</a>,
