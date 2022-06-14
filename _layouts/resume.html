@@ -119,7 +119,7 @@
         </header>
 
         {% for project in site.data.projects %}
-        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="resume-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
           <meta itemscope itemprop="creator" content="{{site.author.name}}" itemtype="http://schema.org/Person" />
           {% if project.coauthors %}
                <meta itemprop="creator" content="{{ project.coauthors }}" itemtype="http://schema.org/Person" />
