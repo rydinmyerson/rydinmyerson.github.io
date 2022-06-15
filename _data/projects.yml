@@ -64,8 +64,8 @@
 - project: Quadratic forms and systems of forms in many variables
   journal: "Invent. math."
   volumenumber: 213
-  pageStart: 205
-  pageEnd: 235
+  pagestart: 205
+  pageend: 235
   publisher: Springer-Verlag
   url: "https://doi.org/10.1007/s00222-018-0789-x"
   identifier: "doi:10.1007/s00222-018-0789-x"
@@ -76,8 +76,8 @@
   journal: "J. Reine Agnew. Math. (Crelles Journal)"
   volumenumber: 2019
   issuenumber: 757
-  pageStart: 309
-  pageEnd: 328
+  pagestart: 309
+  pageend: 328
   publisher: De Gruyter
   url: "https://doi.org/10.1515/crelle-2017-0040"
   identifier: "doi:10.1515/crelle-2017-0040"
@@ -95,8 +95,8 @@
   journal: "Oberwolfach Rep."
   volumenumber: 13
   issuenumber: 4
-  pageStart: 3013
-  pageEnd: 3014
+  pagestart: 3013
+  pageend: 3014
   publisher: EMS Press
   url: "https://doi.org/10.4171/OWR/2016/53"
   identifier: "doi:10.4171/OWR/2016/53"
