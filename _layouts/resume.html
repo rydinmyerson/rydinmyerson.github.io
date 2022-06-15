@@ -134,9 +134,9 @@
                 if forloop.last == false %};{% endif
               %}{% endfor %}{% if project.journal %},{% endif
           %}{% else %}<span itemscope itemprop="author" itemtype="http://schema.org/Person">.<meta  itemprop="name" content="{{site.author.name}}" /><meta  itemprop="url" content="{{site.url}}" /></span>{% endif %}
-          {% if project.journal %}<span itemscope itemprop="isPartOf" itemtype="http://schema.org/Periodical">{{ project.journal }}</span>{% endif
-          %}{% if project.volumenumber %}, <span itemscope itemprop="isPartOf" itemtype="http://schema.org/volumeNumber">{{project.volumenumber}}</span>{% endif
-          %}{% if project.issuenumber %}(<span itemscope itemprop="isPartOf" itemtype="http://schema.org/issueNumber">{{project.issuenumber}}</span>){% endif
+          {% if project.journal %}<span itemscope itemprop="isPartOf" itemtype="http://schema.org/Periodical"><span itemprop="name>{{ project.journal }}</span></span>{% endif
+          %}{% if project.volumenumber %}, <span itemscope itemprop="isPartOf" itemtype="http://schema.org/PublicationVolume">{{project.volumenumber}}</span>{% endif
+          %}{% if project.issuenumber %}(<span itemscope itemprop="isPartOf" itemtype="http://schema.org/PublicationIssue">{{project.issuenumber}}</span>){% endif
           %}{% if project.pagestart %}<span itemprop="pageStart">{{project.pagestart}}</span>-<span itemprop="pageEnd">{{project.pageend}}</span>{% endif
           %}{% if project.pagination %}<span itemprop="pagination">{{project.pagination}}</span>{% endif
           %}
