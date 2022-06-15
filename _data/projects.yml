@@ -5,7 +5,7 @@
   url: "https://arxiv.org/abs/1709.08917"
   identifier: "arXiv:1709.08917"
   pagecount: 15pp
-  note: "improved version in preparation, see my HCM lectures for details: <a itemprop='subjectOf' href='https://youtube.com/playlist?list=PLul8LCT3AJqSJ5QvmtlONFC4rBNzmzMXq'>videos 1-3</a>, <a itemprop='subjectOf' href='https://www.youtube.com/watch?v=qV51iYrNJ6s'>video 4</a>, <a itemprop='subjectOf' href='https://www.hcm.uni-bonn.de/thecirclemethod2021/'>slides</a>"
+  note: "improved version in preparation, see <a itemprop='subjectOf' href='https://youtube.com/playlist?list=PLul8LCT3AJqSJ5QvmtlONFC4rBNzmzMXq'>my HCM lectures</a> for details (<a itemprop='subjectOf' href='https://www.hcm.uni-bonn.de/thecirclemethod2021/'>slides</a>)"
   
 - project: Additive problems with almost prime squares
   coauthor-list:
