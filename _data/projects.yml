@@ -53,7 +53,8 @@
   coauthor-list:
     - GermainP
   journal: "Forum Math. Sigma"
-  issuepages: "10:e24"
+  volumenumber: 10
+  pagination: e24
   publisher: Cambridge University Press
   url: "https://doi.org/10.1017/fms.2022.18"
   identifier: "doi:10.1017/fms.2022.18"
@@ -62,7 +63,9 @@
  
 - project: Quadratic forms and systems of forms in many variables
   journal: "Invent. math."
-  issuepages: "213:205-235"
+  volumenumber: 213
+  pageStart: 205
+  pageEnd: 235
   publisher: Springer-Verlag
   url: "https://doi.org/10.1007/s00222-018-0789-x"
   identifier: "doi:10.1007/s00222-018-0789-x"
@@ -71,12 +74,15 @@
  
 - project: Systems of cubic forms in many variables
   journal: "J. Reine Agnew. Math. (Crelles Journal)"
-  issuepages: "757(2019):309-328"
+  volumenumber: 2019
+  issuenumber: 757
+  pageStart: 309
+  pageEnd: 328
   publisher: De Gruyter
   url: "https://doi.org/10.1515/crelle-2017-0040"
   identifier: "doi:10.1515/crelle-2017-0040"
   pagecount: 29pp
-  year: 2017
+  year: 2019
  
 - project: Systems of many forms
   journal: "DPhil thesis, University of Oxford"
@@ -86,8 +92,11 @@
   year: 2016
 
 - project: Real and rational systems of forms
-  journal: "In Oberwolfach Rep."
-  issuepages: "13(4):3013-14"
+  journal: "Oberwolfach Rep."
+  volumenumber: 13
+  issuenumber: 4
+  pageStart: 3013
+  pageEnd: 3014
   publisher: EMS Press
   url: "https://doi.org/10.4171/OWR/2016/53"
   identifier: "doi:10.4171/OWR/2016/53"
