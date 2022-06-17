@@ -119,7 +119,7 @@
         </header>
 
         {% for project in site.data.projects %}
-        <div class="resume-item" itemscope itemtype="http://schema.org/ScholarlyArticle" {% if project.id %}{{project.id}}{% endif %} >
+        <div class="resume-item" itemscope itemtype="http://schema.org/ScholarlyArticle" {% if project.id %}id="{{project.id}}"{% endif %} >
           <p class="resume-item-copy"><span class="publication-title" itemprop="name">{{ project.project }}</span>{%
         if project.coauthor-list %}<span itemscope itemprop="author" itemtype="http://schema.org/Person">, with  
           <meta  itemprop="name" content="{{site.author.name}}" /><meta  itemprop="url" content="{{site.url}}" /></span>
