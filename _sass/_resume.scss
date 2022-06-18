@@ -264,7 +264,7 @@
 
   .resume-item {
     margin-bottom: 2rem;
-    :target {
+    &:target {
       background-color: #D1CECC;
     }
   }
