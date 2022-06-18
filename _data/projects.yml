@@ -67,18 +67,6 @@
   pagecount: 14pp
   year: 2022
  
-- project: Quadratic forms and systems of forms in many variables
-  id: qfsfmv
-  journal: "Invent. math."
-  volumenumber: 213
-  pagestart: 205
-  pageend: 235
-  publisher: Springer-Verlag
-  url: "https://doi.org/10.1007/s00222-018-0789-x"
-  identifier: "doi:10.1007/s00222-018-0789-x"
-  pagecount: 36pp
-  year: 2018
- 
 - project: Systems of cubic forms in many variables
   id: scfmv
   journal: "J. Reine Agnew. Math. (Crelles Journal)"
@@ -91,6 +79,18 @@
   identifier: "doi:10.1515/crelle-2017-0040"
   pagecount: 29pp
   year: 2019
+ 
+- project: Quadratic forms and systems of forms in many variables
+  id: qfsfmv
+  journal: "Invent. math."
+  volumenumber: 213
+  pagestart: 205
+  pageend: 235
+  publisher: Springer-Verlag
+  url: "https://doi.org/10.1007/s00222-018-0789-x"
+  identifier: "doi:10.1007/s00222-018-0789-x"
+  pagecount: 36pp
+  year: 2018
  
 - project: Systems of many forms
   id: smf
