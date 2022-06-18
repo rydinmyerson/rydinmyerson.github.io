@@ -262,7 +262,12 @@
 .content-section {
   margin: 0 0 3rem;
 
-  .resume-item { margin-bottom: 2rem; }
+  .resume-item {
+    margin-bottom: 2rem;
+    :target {
+      background-color: #D1CECC;
+    }
+  }
 
   .resume-item-title {
     @include sans_bold;
