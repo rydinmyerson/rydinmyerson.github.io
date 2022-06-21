@@ -4,12 +4,11 @@ title: "Simon L. Rydin Myerson"
 tagline: "Personal page of Simon Leo Rydin Myerson"
 description: "This is a page about my research in maths. It has a list of my publications and links to other profiles of me around the internet."
 author:
-  $ref: "#me"
   name: Simon Myerson
   alternateName:
     - Simon Rydin Myerson
     - Simon Leo Rydin Myerson
-  url: "https://warwick.ac.uk/fac/sci/maths/people/staff/myerson"
+  url: "https://twitter.com/SimonMyerson"
   givenName: Simon
   additionalName: Leo
   familyName:
