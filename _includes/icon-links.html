@@ -19,7 +19,7 @@
   
   <!-- Work link -->
   {% if site.resume_social_links.resume_work_url %}
-  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_work_url }}" class="icon-link" itemprop="mainEntityOfPage">{% include icons/icon-work.html %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_work_url }}" rel="nofollow" class="icon-link" itemprop="mainEntityOfPage">{% include icons/icon-work.html %}
       <div class="screenreader-only">Work</div>
   </a><span class="tooltiptext">{{ site.resume_social_links.resume_work_tooltip }}</span></li>
   {% endif %}
