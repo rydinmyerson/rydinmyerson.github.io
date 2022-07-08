@@ -19,6 +19,15 @@
   pagecount: 38pp
   note: improved version in preparation
 
+- project: Bounds for spectral projectors on generic tori
+  id: bspgt
+  coauthor-list:
+    - GermainP
+  url: "https://arxiv.org/pdf/2207.02967"
+  identifier: "arxiv:2109.03746"
+  pagecount: 22pp
+  note: "submitted"
+
 - project: The elliptic sieve and Brauer groups
   id: esbg
   coauthor-list:
