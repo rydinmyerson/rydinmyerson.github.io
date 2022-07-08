@@ -8,6 +8,15 @@
   pagecount: 15pp
   note: "improved version in preparation, see <a itemprop='subjectOf' href='https://youtube.com/playlist?list=PLul8LCT3AJqSJ5QvmtlONFC4rBNzmzMXq'>my HCM lectures</a> for details, <a itemprop='subjectOf' href='https://wrap.warwick.ac.uk/165983/'>slides</a>"
   
+- project: Bounds for spectral projectors on generic tori
+  id: bspgt
+  coauthor-list:
+    - GermainP
+  url: "https://arxiv.org/pdf/2207.02967"
+  identifier: "arxiv:2207.02967"
+  pagecount: 22pp
+  note: "submitted"
+  
 - project: Additive problems with almost prime squares
   id: apaps
   coauthor-list:
@@ -16,17 +25,8 @@
     - LiJ
   url: "https://arxiv.org/pdf/2111.01601"
   identifier: "arxiv:2111.01601"
-  pagecount: 38pp
-  note: improved version in preparation
-
-- project: Bounds for spectral projectors on generic tori
-  id: bspgt
-  coauthor-list:
-    - GermainP
-  url: "https://arxiv.org/pdf/2207.02967"
-  identifier: "arxiv:2109.03746"
-  pagecount: 22pp
-  note: "submitted"
+  pagecount: 50pp
+  note: submitted
 
 - project: The elliptic sieve and Brauer groups
   id: esbg
