@@ -91,6 +91,7 @@ resume_social_links:
   resume_phone_url:             "https://peoplesearch.warwick.ac.uk/profile/1972891"
   resume_phone_tooltip:         "Phone (for Warwick users)"
   resume_ORCID_url:             "https://orcid.org/0000-0002-1486-6054"
+  resime_ORCID_id:              "ORCID:0000-0002-1486-6054"
   resume_ORCID_tooltip:         "ORCID iD"
   #resume_github_url:            "https://github.com/jglovier/resume-template"
   #resume_twitter_url:           "http://twitter.com/jglovier"
