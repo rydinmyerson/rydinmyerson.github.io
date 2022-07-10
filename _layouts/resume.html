@@ -120,8 +120,11 @@
 
         {% for project in site.data.projects %}
         <div class="resume-item" itemscope itemtype="http://schema.org/ScholarlyArticle" {% if project.id %}id="{{project.id}}"{% endif %} >
-          <p class="resume-item-copy"><span class="publication-title" itemprop="name">{{ project.project }}</span>{%
-        if project.coauthor-list %}, with
+         <p class="resume-item-copy"><span class="publication-title" itemprop="name"
+         {% if project.question %}
+              title="{{project.question}}"
+         {% endif %}>{{ project.project }}</span>{%
+         if project.coauthor-list %}, with
               {% for coauthor in project.coauthor-list %}
               {% if forloop.first == false and forloop.last %}and{% endif %}
               <span itemprop="author" itemscope itemtype="http://schema.org/Person">
