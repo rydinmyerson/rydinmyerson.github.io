@@ -121,8 +121,8 @@
         {% for project in site.data.projects %}
         <div class="resume-item" itemscope itemtype="http://schema.org/ScholarlyArticle" {% if project.id %}id="{{project.id}}"{% endif %} >
          <p class="resume-item-copy"><span class="publication-title" itemprop="name">{% if project.tweet %}
-           <a itemprop="subjectOf" href="{{ project.tweet }}">
-         {% endif %}{{ project.project }}{% if project.twitter %}
+           <a itemprop="mainEntityOfPage" href="{{ project.tweet }}">
+         {% endif %}{{ project.project }}{% if project.tweet %}
            </a>
          {% endif %}</span>{%
          if project.coauthor-list %}, with
