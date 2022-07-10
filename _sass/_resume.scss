@@ -286,11 +286,6 @@
       font-size: 1rem;
     }
   }
-  
-  .publication-title {
-    @include sans_bold;
-    font-weight: bold;
-  }
 
   .resume-item-title,
   .resume-item-details,
@@ -304,6 +299,16 @@
       &:hover {
         border-bottom: none;
         color: #9c9c9c;
+      }
+    }
+    .publication-title {
+      @include sans_bold;
+      font-weight: bold;
+      a {
+        border-bottom: none;
+        &:hover {
+          color: #333;
+        }
       }
     }
   }
