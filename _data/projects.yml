@@ -9,6 +9,7 @@
   note: "improved version in preparation, see <a itemprop='subjectOf' href='https://youtube.com/playlist?list=PLul8LCT3AJqSJ5QvmtlONFC4rBNzmzMXq'>my HCM lectures</a> for details, <a itemprop='subjectOf' href='https://wrap.warwick.ac.uk/165983/'>slides</a>"
   
 - project: Bounds for spectral projectors on generic tori
+#  tweet: Will send on Fri, Aug 12, 2022 at 2:18 PM
   id: bspgt
   coauthor-list:
     - GermainP
@@ -18,6 +19,7 @@
   note: "submitted"
   
 - project: Additive problems with almost prime squares
+#  tweet: Will send on Wed, Aug 10, 2022 at 11:51 AM
   id: apaps
   coauthor-list:
     - BlomerV
@@ -29,6 +31,7 @@
   note: submitted
 
 - project: The elliptic sieve and Brauer groups
+#  tweet: Will send on Fri, Aug 5, 2022 at 11:30 AM
   id: esbg
   coauthor-list:
     - BhaktaS
@@ -40,6 +43,7 @@
   note: "submitted, <a itemprop='subjectOf' href='https://youtu.be/2umnf2JbkJE'>video version</a>"
 
 - project: Bounds for spectral projectors on the Euclidean cylinder
+#  tweet: Will send on Wed, Aug 3, 2022 at 11:23 AM
   id: bspec
   coauthor-list:
     - GermainP
@@ -51,6 +55,7 @@
   note: in press
 
 - project: Strichartz estimates for the Schroedinger equation on non-rectangular two-dimensional tori
+#  tweet: Will send on Mon, Aug 1, 2022 at 9:46 AM
   id: sesentt
   coauthor-list:
     - DengY
@@ -64,6 +69,7 @@
   note: in press
  
 - project: Bounds for spectral projectors on tori
+#  tweet: Will send on Sat, Jul 30, 2022 at 9:40 AM
   id: bspt
   coauthor-list:
     - GermainP
@@ -77,6 +83,7 @@
   year: 2022
  
 - project: Systems of cubic forms in many variables
+#  tweet: Will send on Fri, Jul 29, 2022 at 9:27 AM
   id: scfmv
   journal: "J. Reine Agnew. Math. (Crelles Journal)"
   volumenumber: 2019
@@ -90,6 +97,7 @@
   year: 2019
  
 - project: Quadratic forms and systems of forms in many variables
+#  tweet: Will send on Wed, Jul 27, 2022 at 9:26 AM
   id: qfsfmv
   journal: "Invent. math."
   volumenumber: 213
@@ -102,6 +110,7 @@
   year: 2018
  
 - project: Systems of many forms
+#  tweet: Will send on Mon, Jul 25, 2022 at 9:21 AM
   id: smf
   journal: "DPhil thesis, University of Oxford"
   url: "https://ora.ox.ac.uk/objects/uuid:a9932e90-4784-466a-a694-d387c1228533"
@@ -110,7 +119,6 @@
   year: 2016
 
 - project: Real and rational systems of forms
-  question: How many variables are enough to understand systems of polynomials of the same degree in many integer variables?
   tweet: https://twitter.com/SimonMyerson/status/1539134946496987136
   id: rrsf
   journal: "Oberwolfach Rep."
