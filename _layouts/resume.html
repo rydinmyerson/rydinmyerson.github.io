@@ -122,9 +122,7 @@
         <div class="resume-item" itemscope itemtype="http://schema.org/ScholarlyArticle" {% if project.id %}id="{{project.id}}"{% endif %} >
          <p class="resume-item-copy"><span class="publication-title" itemprop="name">{% if project.tweet %}
            <a itemprop="mainEntityOfPage" href="{{ project.tweet }}">
-         {% endif %}{{ project.project }}{% if project.tweet %}
-           </a>
-         {% endif %}</span>{%
+         {% endif %}{{ project.project }}{% if project.tweet %}</a>{% endif %}</span>{%
          if project.coauthor-list %}, with
               {% for coauthor in project.coauthor-list %}
               {% if forloop.first == false and forloop.last %}and{% endif %}
