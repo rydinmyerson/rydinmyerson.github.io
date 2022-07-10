@@ -110,6 +110,8 @@
   year: 2016
 
 - project: Real and rational systems of forms
+  question: How many variables are enough to understand systems of polynomials of the same degree in many integer variables?
+  tweet: https://twitter.com/SimonMyerson/status/1539134946496987136
   id: rrsf
   journal: "Oberwolfach Rep."
   volumenumber: 13
