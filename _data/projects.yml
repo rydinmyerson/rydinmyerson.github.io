@@ -97,7 +97,7 @@
   year: 2019
  
 - project: Quadratic forms and systems of forms in many variables
-#  tweet: Will send on Wed, Jul 27, 2022 at 9:26 AM
+  tweet: https://twitter.com/SimonMyerson/status/1552208670007726085
   id: qfsfmv
   journal: "Invent. math."
   volumenumber: 213
@@ -110,7 +110,7 @@
   year: 2018
  
 - project: Systems of many forms
-#  tweet: Will send on Mon, Jul 25, 2022 at 9:21 AM
+  tweet: https://twitter.com/SimonMyerson/status/1551482635980906496
   id: smf
   journal: "DPhil thesis, University of Oxford"
   url: "https://ora.ox.ac.uk/objects/uuid:a9932e90-4784-466a-a694-d387c1228533"
