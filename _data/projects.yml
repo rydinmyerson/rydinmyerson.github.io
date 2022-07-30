@@ -62,14 +62,18 @@
     - GermainP
     - GuthL
   journal: "Amer. J. Math."
+  volumenumber: 144
+  issuenumber: 3
+  pagestart: 701
+  pageend: 745
   publisher: "Johns Hopkins University Press"
-  url: "https://arxiv.org/abs/1810.05630"
-  identifier: "arXiv:1810.05630"
-  pagecount: 31pp
-  note: in press
+  url: "https://doi.org/10.1353/ajm.2022.0014"
+  identifier: "doi:10.1353/ajm.2022.0014"
+  pagecount: 45pp
+  year: 2022
  
 - project: Bounds for spectral projectors on tori
-#  tweet: Will send on Sat, Jul 30, 2022 at 9:40 AM
+  tweet: https://twitter.com/SimonMyerson/status/1553299356882587648
   id: bspt
   coauthor-list:
     - GermainP
@@ -83,7 +87,7 @@
   year: 2022
  
 - project: Systems of cubic forms in many variables
-#  tweet: Will send on Fri, Jul 29, 2022 at 9:27 AM
+  tweet: https://twitter.com/SimonMyerson/status/1552933697334046720
   id: scfmv
   journal: "J. Reine Agnew. Math. (Crelles Journal)"
   volumenumber: 2019
