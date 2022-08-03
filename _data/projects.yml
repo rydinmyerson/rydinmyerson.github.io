@@ -43,7 +43,7 @@
   note: "submitted, <a itemprop='subjectOf' href='https://youtu.be/2umnf2JbkJE'>video version</a>"
 
 - project: Bounds for spectral projectors on the Euclidean cylinder
-#  tweet: Will send on Wed, Aug 3, 2022 at 11:23 AM
+  tweet: https://twitter.com/SimonMyerson/status/1554774829030449153
   id: bspec
   coauthor-list:
     - GermainP
@@ -55,7 +55,7 @@
   note: in press
 
 - project: Strichartz estimates for the Schroedinger equation on non-rectangular two-dimensional tori
-#  tweet: Will send on Mon, Aug 1, 2022 at 9:46 AM
+  tweet: https://twitter.com/SimonMyerson/status/1554025642567421952
   id: sesentt
   coauthor-list:
     - DengY
