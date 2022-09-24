@@ -36,7 +36,7 @@ plugins:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Simon L. Rydin Myerson"
+resume_name:                    "Simon <abbr title='Leo' style='border:none;text-decoration:none;'>L.</abbr> Rydin Myerson"
 resume_title:                   "Leverhulme Early Career Fellow and Warwick Zeeman Lecturer"
 
 # used for the contact button in _layouts/resume.html
