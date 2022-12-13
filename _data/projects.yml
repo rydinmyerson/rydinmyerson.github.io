@@ -8,6 +8,21 @@
   pagecount: 15pp
   note: "improved version in preparation, see <a itemprop='subjectOf' href='https://youtube.com/playlist?list=PLul8LCT3AJqSJ5QvmtlONFC4rBNzmzMXq'>my HCM lectures</a> for details, <a itemprop='subjectOf' href='https://wrap.warwick.ac.uk/165983/'>slides</a>"
   
+- project: Bounds for spectral projectors on the Euclidean cylinder
+  tweet: https://twitter.com/SimonMyerson/status/1554774829030449153
+  id: bspec
+  coauthor-list:
+    - GermainP
+  journal: "Comptes Rendus Math."
+  publisher: "Elsevier of behalf of the French Academy of Sciences"
+  pagecount: 6pp
+  volumenumber: 360
+  pagestart: 1257
+  pageend: 1262
+  url: "https://doi.org/10.5802/crmath.378"
+  identifier: "doi:10.5802/crmath.378"
+  year: 2022
+  
 - project: Bounds for spectral projectors on generic tori
   tweet: https://twitter.com/SimonMyerson/status/1558080360352829443
   id: bspgt
@@ -40,19 +55,7 @@
   url: "https://arxiv.org/pdf/2109.03746"
   identifier: "arxiv:2109.03746"
   pagecount: 31pp
-  note: "submitted, <a itemprop='subjectOf' href='https://youtu.be/2umnf2JbkJE'>video version</a>"
-
-- project: Bounds for spectral projectors on the Euclidean cylinder
-  tweet: https://twitter.com/SimonMyerson/status/1554774829030449153
-  id: bspec
-  coauthor-list:
-    - GermainP
-  journal: "Comptes Rendus Math."
-  publisher: "Elsevier of behalf of the French Academy of Sciences"
-  url: "https://arxiv.org/pdf/2203.08273"
-  identifier: "arxiv:2203.08273"
-  pagecount: 5pp
-  note: in press
+  note: "submitted, <a itemprop='subjectOf' href='https://youtu.be/2umnf2JbkJE'>video version</a>
 
 - project: Strichartz estimates for the Schroedinger equation on non-rectangular two-dimensional tori
   tweet: https://twitter.com/SimonMyerson/status/1554025642567421952
