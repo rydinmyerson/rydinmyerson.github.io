@@ -140,8 +140,8 @@ onenote:https://livewarwickac-my.sharepoint.com/personal/u1972891_live_warwick_a
           %}{% else %}.{% endif %}
             <link itemprop="author" href="#me" />
           {% if project.journal %}<span itemscope itemprop="isPartOf" itemtype="http://schema.org/Periodical"><span itemprop="name">{{ project.journal }}</span></span
-          %}{% if project.volumenumber %}, <span itemscope itemprop="isPartOf" itemtype="http://schema.org/PublicationVolume"><span itemprop="volumeNumber">{{project.volumenumber}}</span></span>{% endif %}{% endif
-          >{% if project.issuenumber %}(<span itemscope itemprop="isPartOf" itemtype="http://schema.org/PublicationIssue"><span itemprop="issueNumber">{{project.issuenumber}}</span></span>){% else %}:{% endif
+          %}{% if project.volumenumber %}, <span itemscope itemprop="isPartOf" itemtype="http://schema.org/PublicationVolume"><span itemprop="volumeNumber">{{project.volumenumber}}</span></span>{% endif
+          >{% if project.issuenumber %}(<span itemscope itemprop="isPartOf" itemtype="http://schema.org/PublicationIssue"><span itemprop="issueNumber">{{project.issuenumber}}</span></span>){% else %}:{% endif %}{% endif
           %}{% if project.pagestart %}<span itemprop="pageStart">{{project.pagestart}}</span>-<span itemprop="pageEnd">{{project.pageend}}</span>{% endif
           %}{% if project.pagination %}<span itemprop="pagination">{{project.pagination}}</span>{% endif
           %}
