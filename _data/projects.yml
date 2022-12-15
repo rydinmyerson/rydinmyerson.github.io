@@ -8,6 +8,18 @@
   pagecount: 15pp
   note: "improved version in preparation, see <a itemprop='subjectOf' href='https://youtube.com/playlist?list=PLul8LCT3AJqSJ5QvmtlONFC4rBNzmzMXq'>my HCM lectures</a> for details, <a itemprop='subjectOf' href='https://wrap.warwick.ac.uk/165983/'>slides</a>"
   
+- project: Bounds for spectral projectors on generic tori
+  tweet: https://twitter.com/SimonMyerson/status/1558080360352829443
+  id: bspgt
+  coauthor-list:
+    - GermainP
+  journal: "Math. Annalen"
+  publisher: "Springer-Verlag"
+  url: "https://arxiv.org/pdf/2207.02967"
+  identifier: "arxiv:2207.02967"
+  pagecount: 22pp
+  note: "in press"
+  
 - project: Bounds for spectral projectors on the Euclidean cylinder
   tweet: https://twitter.com/SimonMyerson/status/1554774829030449153
   id: bspec
@@ -22,16 +34,6 @@
   url: "https://doi.org/10.5802/crmath.378"
   identifier: "doi:10.5802/crmath.378"
   year: 2022
-  
-- project: Bounds for spectral projectors on generic tori
-  tweet: https://twitter.com/SimonMyerson/status/1558080360352829443
-  id: bspgt
-  coauthor-list:
-    - GermainP
-  url: "https://arxiv.org/pdf/2207.02967"
-  identifier: "arxiv:2207.02967"
-  pagecount: 22pp
-  note: "submitted"
   
 - project: Additive problems with almost prime squares
   tweet: https://twitter.com/SimonMyerson/status/1557318590520389632
