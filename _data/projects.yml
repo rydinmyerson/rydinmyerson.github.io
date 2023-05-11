@@ -9,7 +9,7 @@
   note: "improved version in preparation, see <a itemprop='subjectOf' href='https://youtube.com/playlist?list=PLul8LCT3AJqSJ5QvmtlONFC4rBNzmzMXq'>my HCM lectures</a> for details, <a itemprop='subjectOf' href='https://wrap.warwick.ac.uk/165983/'>slides</a>"
     
 - project: Additive problems with almost prime squares
-  tweet: https://twitter.com/SimonMyerson/status/1557318590520389632
+#  tweet: https://twitter.com/SimonMyerson/status/1557318590520389632
   id: apaps
   coauthor-list:
     - BlomerV
@@ -21,19 +21,24 @@
   note: submitted
 
 - project: The elliptic sieve and Brauer groups
-  tweet: https://twitter.com/SimonMyerson/status/1555501368042934272
+#  tweet: https://twitter.com/SimonMyerson/status/1555501368042934272
   id: esbg
   coauthor-list:
     - BhaktaS
     - LoughranD
     - NakaharaM
-  url: "https://arxiv.org/pdf/2109.03746"
-  identifier: "arxiv:2109.03746"
-  pagecount: 31pp
-  note: "submitted, <a itemprop='subjectOf' href='https://youtu.be/2umnf2JbkJE'>video version</a>"
+  journal: "Proc. London Math. Soc."
+  publisher: "Wiley"
+  pagecount: 39pp
+  url: "https://doi.org/10.1112/plms.12520"
+  identifier: "doi:10.1112/plms.12520"
+  year: 2023
+  note: "<a itemprop='subjectOf' href='https://youtu.be/2umnf2JbkJE'>video version</a>"
+
+
 
 - project: Bounds for spectral projectors on generic tori
-  tweet: https://twitter.com/SimonMyerson/status/1558080360352829443
+#  tweet: https://twitter.com/SimonMyerson/status/1558080360352829443
   id: bspgt
   coauthor-list:
     - GermainP
@@ -45,7 +50,7 @@
   year: 2022
   
 - project: Bounds for spectral projectors on the Euclidean cylinder
-  tweet: https://twitter.com/SimonMyerson/status/1554774829030449153
+#  tweet: https://twitter.com/SimonMyerson/status/1554774829030449153
   id: bspec
   coauthor-list:
     - GermainP
@@ -60,7 +65,7 @@
   year: 2022
 
 - project: Strichartz estimates for the Schroedinger equation on non-rectangular two-dimensional tori
-  tweet: https://twitter.com/SimonMyerson/status/1554025642567421952
+#  tweet: https://twitter.com/SimonMyerson/status/1554025642567421952
   id: sesentt
   coauthor-list:
     - DengY
@@ -79,7 +84,7 @@
   note: "<a itemprop='archivedAt' href='https://arxiv.org/abs/1810.05630'>fulltext</a>"
  
 - project: Bounds for spectral projectors on tori
-  tweet: https://twitter.com/SimonMyerson/status/1553299356882587648
+#  tweet: https://twitter.com/SimonMyerson/status/1553299356882587648
   id: bspt
   coauthor-list:
     - GermainP
@@ -93,7 +98,7 @@
   year: 2022
  
 - project: Systems of cubic forms in many variables
-  tweet: https://twitter.com/SimonMyerson/status/1552933697334046720
+#  tweet: https://twitter.com/SimonMyerson/status/1552933697334046720
   id: scfmv
   journal: "J. Reine Agnew. Math. (Crelles Journal)"
   volumenumber: 2019
@@ -107,7 +112,7 @@
   year: 2019
  
 - project: Quadratic forms and systems of forms in many variables
-  tweet: https://twitter.com/SimonMyerson/status/1552208670007726085
+#  tweet: https://twitter.com/SimonMyerson/status/1552208670007726085
   id: qfsfmv
   journal: "Invent. math."
   volumenumber: 213
@@ -120,7 +125,7 @@
   year: 2018
  
 - project: Systems of many forms
-  tweet: https://twitter.com/SimonMyerson/status/1551482635980906496
+#  tweet: https://twitter.com/SimonMyerson/status/1551482635980906496
   id: smf
   journal: "DPhil thesis, University of Oxford"
   url: "https://ora.ox.ac.uk/objects/uuid:a9932e90-4784-466a-a694-d387c1228533"
@@ -129,7 +134,7 @@
   year: 2016
 
 - project: Real and rational systems of forms
-  tweet: https://twitter.com/SimonMyerson/status/1539134946496987136
+ # tweet: https://twitter.com/SimonMyerson/status/1539134946496987136
   id: rrsf
   journal: "Oberwolfach Rep."
   volumenumber: 13
