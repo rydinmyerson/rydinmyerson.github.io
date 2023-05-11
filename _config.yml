@@ -8,7 +8,7 @@ author:
   alternateName:
     - Simon Rydin Myerson
     - Simon Leo Rydin Myerson
-  url: "https://twitter.com/SimonMyerson"
+  url: "https://mathstodon.xyz/@simonmyerson"
   givenName: Simon
   additionalName: Leo
   familyName:
@@ -21,6 +21,7 @@ twitter:
 social:
   name: Simon Myerson
   links:
+    - https://mathstodon.xyz/@simonmyerson
     - https://twitter.com/SimonMyerson
     - https://warwick.ac.uk/fac/sci/maths/people/staff/myerson
 locale: en_GB
