@@ -15,10 +15,13 @@
     - BlomerV
     - GrimmeltL
     - LiJ
+  journal: "Geom. Funct. Anal."
+  publisher: "Springer"
+  pagecount: 70pp
   url: "https://arxiv.org/pdf/2111.01601"
-  identifier: "arxiv:2111.01601"
-  pagecount: 50pp
-  note: submitted
+  identifier: "doi:10.1007/s00039-023-00635-w"
+  year: 2023
+  note: advance online publication anticipated, DOI allocated
 
 - project: The elliptic sieve and Brauer groups
 #  tweet: https://twitter.com/SimonMyerson/status/1555501368042934272
