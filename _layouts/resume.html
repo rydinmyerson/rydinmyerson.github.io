@@ -150,7 +150,8 @@ onenote:https://livewarwickac-my.sharepoint.com/personal/u1972891_live_warwick_a
           {% else %}{% if project.identifier %}<span itemprop="identifier">{{ project.identifier }}</span>,{% endif %}{% endif
           %}{% if project.year
               %}{% if project.note %}<span itemprop="datePublished">{{ project.year }}</span>, {{project.note}}{% else %}<span itemprop="datePublished">{{ project.year }}</span>{% endif
-          %}{% else %}{{project.note}}{% endif %})
+          %}{% else %}{{project.note}}{% endif %}{% if project.slides
+           %}, <a href="{{ project.slides }}">slides</a>{% endif %})
           </p>
         </div>
         {% endfor %}
