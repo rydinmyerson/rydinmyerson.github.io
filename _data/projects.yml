@@ -24,6 +24,14 @@
   identifier: "arXiv:2307.09406"
   year: 2023
   note: "Edited version of an open question to the problem session of <a href='https://iecl.univ-lorraine.fr/ja2023/'>JA2023</a>, communicated there by Michel Waldschmidt"
+
+- project: A question about points on an elliptic curve with prime denominator
+  id: qapecpd
+  pagecount: 3pp
+  url: "https://arxiv.org/abs/2307.09406"
+  identifier: "arXiv:2307.09406"
+  year: 2023
+  note: "Edited version of an open question to the problem session of <a href='https://iecl.univ-lorraine.fr/ja2023/'>JA2023</a>, communicated there by Michel Waldschmidt"
   
 - project: Additive problems with almost prime squares
 #  tweet: https://twitter.com/SimonMyerson/status/1557318590520389632
