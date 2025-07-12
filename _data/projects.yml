@@ -4,8 +4,8 @@
 - project: Variations on the circle method (provisional title)
   id: sfmv
   url: "https://maths.fan/IML.pdf"
-  identifier: "slides"
-  note: "in preparation, see also <a itemprop='subjectOf' href='https://youtube.com/playlist?list=PLul8LCT3AJqSJ5QvmtlONFC4rBNzmzMXq'>my HCM lectures</a>"
+  identifier: "Slides"
+  note: "in preparation; see also <a itemprop='subjectOf' href='https://youtube.com/playlist?list=PLul8LCT3AJqSJ5QvmtlONFC4rBNzmzMXq'>my HCM lectures</a>"
 
 - project: Expander estimates for cubes
   id: eec
