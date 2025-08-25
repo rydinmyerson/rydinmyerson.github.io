@@ -7,6 +7,16 @@
   identifier: "Slides"
   note: "in preparation; see also <a itemprop='subjectOf' href='https://youtube.com/playlist?list=PLul8LCT3AJqSJ5QvmtlONFC4rBNzmzMXq'>my HCM lectures</a>"
 
+- project: Bounds for spectral projectors on the three-dimensional torus
+  id: bsp3dt
+  coauthor-list:
+    - GermainP
+    - PezziD
+  pagecount: 51pp
+  url: "https://arxiv.org/abs/2508.05573"
+  identifier: "arXiv:2508.05573"
+  year: 2025
+
 - project: Expander estimates for cubes
   id: eec
   coauthor-list:
