@@ -81,8 +81,8 @@ resume_section_links:           true
 resume_social_links:
   resume_cv_url:                "https://www.dropbox.com/scl/fi/p4kiej5cnbn18848i2rx5/cv.pdf?rlkey=gh6bycj2ay09yujc8j0kw0mie&st=oi7rolhk&raw=1"
   resume_cv_tooltip:            "CV"
-  resume_funding_url:           "https://kaw.wallenberg.org/en/simon-l-rydin-myerson"
-  resume_funding_tooltip:       "KAW funded project"
+  resume_funding_url:           "https://kaw.wallenberg.org/en/simon-leo-rydin-myerson"
+  resume_funding_tooltip:       "Wallenberg Academy Fellowship"
   resume_work_url:              "https://www.chalmers.se/personer/myerson/"
   resume_work_tooltip:          "My Chalmers webpage"
   resume_name_url:              "https://www.name-coach.com/simon-rydinmyerson"
