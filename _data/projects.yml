@@ -21,10 +21,14 @@
   id: eec
   coauthor-list:
     - BruedernJ
-  pagecount: 27pp
-  url: "https://arxiv.org/abs/2409.16795"
-  identifier: "arXiv:2409.16795"
-  year: 2024
+  pagecount: 31pp
+  url: "https://doi.org/10.4171/jems/1768"
+  identifier: "doi:10.4171/jems/1768"
+  year: 2026
+  note: "<a itemprop='archivedAt' href='https://arxiv.org/abs/2409.16795'>fulltext</a>"
+  journal: "J. Eur. Math. Soc."
+  publisher: "European Mathematical Society"
+  pagecount: 39pp
 
 - project: A two dimensional version of the delta symbol method
   id: tdvdsm
