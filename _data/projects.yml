@@ -5,7 +5,7 @@
   id: sfmv
   url: "https://maths.fan/IML.pdf"
   identifier: "Slides"
-  note: "in preparation; see also <a itemprop='subjectOf' href='https://youtube.com/playlist?list=PLul8LCT3AJqSJ5QvmtlONFC4rBNzmzMXq'>my HCM lectures</a>"
+  note: "in preparation; see also <a itemprop='subjectOf' href='https://youtube.com/playlist?list=PLul8LCT3AJqSJ5QvmtlONFC4rBNzmzMXq'>my HCM lectures</a> and their <a itemprop='subjectOf' href='https://wrap.warwick.ac.uk/165983/'>more detailled slides</a>"
 
 - project: Bounds for spectral projectors on the three-dimensional torus
   id: bsp3dt
